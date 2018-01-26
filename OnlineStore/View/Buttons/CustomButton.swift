@@ -21,6 +21,7 @@ class CustomButton: UIButton {
     override func awakeFromNib() {
         
         super.awakeFromNib()
+        
         customizeView()
         
     }
