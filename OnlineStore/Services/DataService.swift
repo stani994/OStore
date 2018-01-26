@@ -19,7 +19,7 @@ class DataService {
         Category(title: "SHIRTS", imageName: "shirts.png"),
         Category(title: "HOODIES", imageName: "hoodies.png"),
         Category(title: "HATS", imageName: "hats.png"),
-        Category(title: "JACKETS", imageName: "digital.png"),
+        Category(title: "JACKETS", imageName: "jackets.png"),
         Category(title: "JEANS", imageName: "jeans.png")
         
     ]
