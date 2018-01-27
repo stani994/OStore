@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Cqq-4E-k2g">
-    <device id="retina4_7" orientation="portrait">
+    <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -24,25 +24,25 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="CategoriesViewController" customModule="OnlineStore" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="131" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="bce-lM-C46">
-                                <rect key="frame" x="0.0" y="105" width="375" height="469"/>
+                                <rect key="frame" x="0.0" y="105" width="320" height="370"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.89948095034246578" colorSpace="custom" customColorSpace="sRGB"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleAspectFill" misplaced="YES" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="CategoryCell" rowHeight="131" id="9xT-Hf-Ygg" customClass="CategoryCell" customModule="OnlineStore" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="375" height="131"/>
+                                        <rect key="frame" x="0.0" y="28" width="320" height="131"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="9xT-Hf-Ygg" id="nyH-UM-bHc">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="131"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="131"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="jackets" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HsR-jc-ygx">
-                                                    <rect key="frame" x="0.0" y="3" width="375" height="125"/>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hoodies" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HsR-jc-ygx">
+                                                    <rect key="frame" x="0.0" y="3" width="320" height="125"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HOODIES" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cvU-w1-zFx">
-                                                    <rect key="frame" x="139" y="51" width="97" height="29"/>
+                                                    <rect key="frame" x="111.5" y="51" width="97" height="29"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="29" id="m5p-l7-AJb"/>
                                                     </constraints>
@@ -69,7 +69,7 @@
                                 </prototypes>
                             </tableView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="    SHOP BY CATEGORY" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PfL-bv-P5A">
-                                <rect key="frame" x="0.0" y="76" width="375" height="20.5"/>
+                                <rect key="frame" x="0.0" y="76" width="320" height="20.5"/>
                                 <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="15"/>
                                 <color key="textColor" red="0.41960784313725491" green="0.72549019607843135" blue="0.94117647058823528" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -111,17 +111,17 @@
             <objects>
                 <viewController storyboardIdentifier="productsVC" id="1l1-DJ-Ac6" customClass="ProductsViewController" customModule="OnlineStore" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kEK-Yg-XDq">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="    PRODUCTS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8mL-DA-mV6">
-                                <rect key="frame" x="0.0" y="76" width="375" height="20.5"/>
+                                <rect key="frame" x="0.0" y="76" width="320" height="20.5"/>
                                 <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="15"/>
                                 <color key="textColor" red="0.41960784313725491" green="0.72549019607843135" blue="0.94117647058823528" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Gc7-XL-5Bv">
-                                <rect key="frame" x="0.0" y="104.5" width="375" height="477.5"/>
+                                <rect key="frame" x="0.0" y="104.5" width="320" height="378.5"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="ls9-oO-yNt">
                                     <size key="itemSize" width="145" height="220"/>
@@ -152,7 +152,7 @@
                                                             <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Devslopes graphics T-Shirt style" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vi9-Qs-vfW">
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Devslopes graphics T-Shirt style" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="Vi9-Qs-vfW">
                                                             <rect key="frame" x="0.0" y="171" width="145" height="33"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="33" id="x1H-0X-6Tm"/>
@@ -207,20 +207,20 @@
             <objects>
                 <viewController storyboardIdentifier="cartVC" id="3pe-Rk-I1p" customClass="MyCartViewController" customModule="OnlineStore" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ZY9-aF-mlQ">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="P4H-PT-HBn">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="71"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="71"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" alpha="0.90000000000000002" contentMode="left" horizontalHuggingPriority="249" verticalHuggingPriority="251" text="My Cart" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zSb-uk-Ict">
-                                        <rect key="frame" x="83" y="34" width="210" height="29"/>
+                                        <rect key="frame" x="83" y="34" width="155" height="29"/>
                                         <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="21"/>
                                         <color key="textColor" red="0.41960784313725491" green="0.72549019607843135" blue="0.94117647058823528" alpha="0.90285209760273977" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" alpha="0.80000000000000004" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pWE-oA-7R7" customClass="CustomButton" customModule="OnlineStore" customModuleProvider="target">
-                                        <rect key="frame" x="308" y="25" width="52" height="38"/>
+                                        <rect key="frame" x="253" y="25" width="52" height="38"/>
                                         <color key="backgroundColor" red="0.1411588191986084" green="0.14118918776512146" blue="0.14115235209465027" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="52" id="eAX-Sy-lyW"/>
@@ -245,19 +245,19 @@
                                 </constraints>
                             </view>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="130" estimatedRowHeight="130" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="q6P-hW-4cK">
-                                <rect key="frame" x="8" y="71" width="359" height="511"/>
+                                <rect key="frame" x="8" y="71" width="304" height="412"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="sectionIndexBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="CartCell" rowHeight="130" id="7Jy-dw-ZpO" customClass="CartCell" customModule="OnlineStore" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="359" height="130"/>
+                                        <rect key="frame" x="0.0" y="28" width="304" height="130"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="7Jy-dw-ZpO" id="njz-yV-0vU">
-                                            <rect key="frame" x="0.0" y="0.0" width="359" height="130"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="304" height="130"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="X4n-FI-6LP">
-                                                    <rect key="frame" x="4" y="4" width="359" height="122"/>
+                                                    <rect key="frame" x="4" y="4" width="304" height="122"/>
                                                     <subviews>
                                                         <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shirt01" translatesAutoresizingMaskIntoConstraints="NO" id="RMO-EW-FB5">
                                                             <rect key="frame" x="8" y="8" width="106" height="106"/>
@@ -266,7 +266,7 @@
                                                             </constraints>
                                                         </imageView>
                                                         <stackView opaque="NO" contentMode="scaleAspectFill" axis="vertical" distribution="fillProportionally" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="hBK-Lv-rWa">
-                                                            <rect key="frame" x="122" y="8" width="703" height="106"/>
+                                                            <rect key="frame" x="122" y="8" width="648" height="106"/>
                                                             <subviews>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Devslopes graphics T-Shirt style" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7ld-Rw-JLq">
                                                                     <rect key="frame" x="-126" y="0.0" width="0.0" height="34.5"/>
@@ -275,13 +275,13 @@
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pieces: 3" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pcy-VF-hUu">
-                                                                    <rect key="frame" x="435" y="34.5" width="65" height="34.5"/>
+                                                                    <rect key="frame" x="407.5" y="34.5" width="65" height="34.5"/>
                                                                     <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="16"/>
                                                                     <color key="textColor" red="0.11371030658483505" green="0.11373641341924667" blue="0.11370476335287094" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Price: 15$" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nFA-16-nun">
-                                                                    <rect key="frame" x="428.5" y="69" width="78" height="37"/>
+                                                                    <rect key="frame" x="401" y="69" width="78" height="37"/>
                                                                     <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="17"/>
                                                                     <color key="textColor" red="0.11371030658483505" green="0.11373641341924667" blue="0.11370476335287094" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                     <nil key="highlightedColor"/>
@@ -321,7 +321,7 @@
                                 </prototypes>
                             </tableView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Final Price: 56$" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i9Y-gj-pFi">
-                                <rect key="frame" x="8" y="587" width="359" height="26"/>
+                                <rect key="frame" x="8" y="488" width="304" height="26"/>
                                 <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="19"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -362,17 +362,17 @@
             <objects>
                 <viewController storyboardIdentifier="detailsVC" modalTransitionStyle="crossDissolve" id="54R-ld-yrs" customClass="DetailsViewController" customModule="OnlineStore" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleAspectFill" id="hBc-eZ-bEX">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view clipsSubviews="YES" contentMode="scaleAspectFill" translatesAutoresizingMaskIntoConstraints="NO" id="XKd-WM-4xi">
-                                <rect key="frame" x="20" y="33" width="375" height="601"/>
+                            <view clipsSubviews="YES" contentMode="scaleAspectFit" translatesAutoresizingMaskIntoConstraints="NO" id="XKd-WM-4xi">
+                                <rect key="frame" x="20" y="33" width="320" height="502"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="Yps-Mx-hrf">
-                                        <rect key="frame" x="10" y="10" width="375" height="581"/>
+                                        <rect key="frame" x="10" y="10" width="320" height="482"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zhv-VV-mRE" customClass="DismissButton" customModule="OnlineStore" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="0.0" width="375" height="53"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="320" height="53"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="53" id="Jbm-3r-iCw"/>
                                                 </constraints>
@@ -385,10 +385,10 @@
                                                 </connections>
                                             </button>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="jacket01" translatesAutoresizingMaskIntoConstraints="NO" id="uaM-MG-ffd">
-                                                <rect key="frame" x="0.0" y="53" width="375" height="385"/>
+                                                <rect key="frame" x="0.0" y="53" width="320" height="286"/>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Devslopes graphics T-Shirt style" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dow-lV-CeL">
-                                                <rect key="frame" x="0.0" y="438" width="375" height="58"/>
+                                                <rect key="frame" x="0.0" y="339" width="320" height="58"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="58" id="ISQ-HL-zjY"/>
                                                 </constraints>
@@ -397,7 +397,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Price:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FwV-Dh-p6v">
-                                                <rect key="frame" x="0.0" y="496" width="375" height="32"/>
+                                                <rect key="frame" x="0.0" y="397" width="320" height="32"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="32" id="eeh-7g-eU1"/>
                                                 </constraints>
@@ -406,7 +406,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nh0-qY-0t3" customClass="CustomButton" customModule="OnlineStore" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="528" width="375" height="53"/>
+                                                <rect key="frame" x="0.0" y="429" width="320" height="53"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="53" id="I1f-c0-ZrE"/>
                                                 </constraints>
@@ -452,24 +452,24 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Jwf-u1-ns5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2527.1999999999998" y="891.87192118226608"/>
+            <point key="canvasLocation" x="2527.1999999999998" y="891.00449775112452"/>
         </scene>
         <!--Login View Controller-->
         <scene sceneID="HV6-n1-TzO">
             <objects>
                 <viewController storyboardIdentifier="loginVC" id="Cqq-4E-k2g" customClass="LoginViewController" customModule="OnlineStore" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="EM5-uh-DwS">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sunsetBackground1" translatesAutoresizingMaskIntoConstraints="NO" id="xKQ-3v-70u">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="n1m-13-F1Z">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="633"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="534"/>
                                 <subviews>
                                     <button opaque="NO" alpha="0.84999999999999998" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="usp-j6-4so" customClass="CustomButton" customModule="OnlineStore" customModuleProvider="target">
-                                        <rect key="frame" x="27" y="550" width="321" height="53"/>
+                                        <rect key="frame" x="27" y="451" width="266" height="53"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="53" id="crP-Aa-Byc"/>
@@ -483,28 +483,28 @@
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" alpha="0.84999999999999998" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Don't have an account?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2FC-bu-84e">
-                                        <rect key="frame" x="27" y="518" width="321" height="22"/>
+                                        <rect key="frame" x="27" y="419" width="266" height="22"/>
                                         <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="16"/>
                                         <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="ixx-6p-GoG">
-                                        <rect key="frame" x="27" y="20" width="321" height="341.5"/>
+                                        <rect key="frame" x="27" y="20" width="266" height="341.5"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" alpha="0.94999999999999996" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="OstoreDESIGNBLUE" translatesAutoresizingMaskIntoConstraints="NO" id="XVR-B2-4Of">
-                                                <rect key="frame" x="0.0" y="0.0" width="321" height="156"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="266" height="156"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="156" id="wU6-rE-cKW"/>
                                                 </constraints>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" alpha="0.84999999999999998" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sign In or Create Your New Account" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ovH-rD-xIv">
-                                                <rect key="frame" x="0.0" y="163" width="321" height="20.5"/>
+                                                <rect key="frame" x="0.0" y="163" width="266" height="20.5"/>
                                                 <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="15"/>
                                                 <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="   Email" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="b8G-67-Zc7" customClass="EmailPassTextField" customModule="OnlineStore" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="190.5" width="321" height="42"/>
+                                                <rect key="frame" x="0.0" y="190.5" width="266" height="42"/>
                                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="42" id="IJe-gH-3kc"/>
@@ -514,7 +514,7 @@
                                                 <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="emailAddress" returnKeyType="next"/>
                                             </textField>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="   Password" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9OX-6y-26X" customClass="EmailPassTextField" customModule="OnlineStore" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="239.5" width="321" height="42"/>
+                                                <rect key="frame" x="0.0" y="239.5" width="266" height="42"/>
                                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="42" id="s9I-Js-asZ"/>
@@ -524,7 +524,7 @@
                                                 <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" returnKeyType="done" secureTextEntry="YES"/>
                                             </textField>
                                             <button opaque="NO" alpha="0.84999999999999998" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nAc-QX-hJq" customClass="CustomButton" customModule="OnlineStore" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="288.5" width="321" height="53"/>
+                                                <rect key="frame" x="0.0" y="288.5" width="266" height="53"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="53" id="SAG-5f-Ydn"/>
@@ -540,7 +540,7 @@
                                         </subviews>
                                     </stackView>
                                     <button hidden="YES" opaque="NO" alpha="0.84999999999999998" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EGz-BW-vxt">
-                                        <rect key="frame" x="27" y="381" width="321" height="38"/>
+                                        <rect key="frame" x="27" y="381" width="266" height="38"/>
                                         <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="19"/>
                                         <state key="normal" title="TEST LOGIN">
                                             <color key="titleColor" red="0.41960784313725491" green="0.72549019607843135" blue="0.94117647058823528" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -600,14 +600,14 @@
             <objects>
                 <viewController id="QCf-ld-EBs" customClass="RegisterViewController" customModule="OnlineStore" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="wcV-Jr-UUc">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sunsetBackground1" translatesAutoresizingMaskIntoConstraints="NO" id="VbE-Hc-hYF">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                             </imageView>
                             <button opaque="NO" alpha="0.84999999999999998" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Aak-6c-H1n" customClass="CustomButton" customModule="OnlineStore" customModuleProvider="target">
-                                <rect key="frame" x="27" y="584" width="321" height="53"/>
+                                <rect key="frame" x="27" y="485" width="266" height="53"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="30"/>
                                 <state key="normal" title="Register">
@@ -618,22 +618,22 @@
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleAspectFit" axis="vertical" distribution="equalSpacing" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="P5Y-dH-HAw">
-                                <rect key="frame" x="27" y="118" width="321" height="282.5"/>
+                                <rect key="frame" x="27" y="118" width="266" height="282.5"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" alpha="0.94999999999999996" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="OstoreDESIGNBLUE" translatesAutoresizingMaskIntoConstraints="NO" id="ith-rQ-rpM">
-                                        <rect key="frame" x="0.0" y="0.0" width="321" height="122"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="266" height="122"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="122" id="FEd-1X-WOK"/>
                                         </constraints>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" alpha="0.84999999999999998" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please enter your details below" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MEj-9f-OLj">
-                                        <rect key="frame" x="0.0" y="142" width="321" height="20.5"/>
+                                        <rect key="frame" x="0.0" y="142" width="266" height="20.5"/>
                                         <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="15"/>
                                         <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="   Email" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Z1t-vK-jwk" customClass="EmailPassTextField" customModule="OnlineStore" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="182.5" width="321" height="40"/>
+                                        <rect key="frame" x="0.0" y="182.5" width="266" height="40"/>
                                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="ROI-RI-Zwz"/>
@@ -643,7 +643,7 @@
                                         <textInputTraits key="textInputTraits" spellCheckingType="no" returnKeyType="next"/>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="   Password" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9G1-GT-ahG" customClass="EmailPassTextField" customModule="OnlineStore" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="242.5" width="321" height="40"/>
+                                        <rect key="frame" x="0.0" y="242.5" width="266" height="40"/>
                                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="fLD-Ww-Nex"/>
@@ -695,7 +695,7 @@
             <objects>
                 <viewController id="5Sf-cz-pyb" customClass="SWRevealViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ev8-wp-cL2">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="Zeq-Fm-wo6"/>
@@ -714,24 +714,24 @@
             <objects>
                 <viewController id="S3j-E3-7O2" customClass="SideMenuViewController" customModule="OnlineStore" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="HHM-0I-c0l">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" alpha="0.90000000000000002" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Menu" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ylg-Ko-93a">
-                                <rect key="frame" x="22" y="30" width="272" height="34.5"/>
+                                <rect key="frame" x="22" y="30" width="217" height="34.5"/>
                                 <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="25"/>
                                 <color key="textColor" red="0.41960784313725491" green="0.72549019607843135" blue="0.94117647058823528" alpha="0.90319991438356162" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="zDl-nj-VpS">
-                                <rect key="frame" x="16" y="102" width="278" height="449"/>
+                                <rect key="frame" x="16" y="102" width="223" height="350"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="MenuCell" rowHeight="50" id="6to-5m-NGr" customClass="MenuCell" customModule="OnlineStore" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="278" height="50"/>
+                                        <rect key="frame" x="0.0" y="28" width="223" height="50"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="6to-5m-NGr" id="NiJ-Av-7xV">
-                                            <rect key="frame" x="0.0" y="0.0" width="278" height="50"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="223" height="50"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f8W-TT-xrH">
@@ -751,13 +751,13 @@
                                 </prototypes>
                             </tableView>
                             <imageView userInteractionEnabled="NO" alpha="0.90000000000000002" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="user-image-with-black-background" translatesAutoresizingMaskIntoConstraints="NO" id="x4Z-2b-xUk">
-                                <rect key="frame" x="16" y="572" width="64" height="71"/>
+                                <rect key="frame" x="16" y="473" width="64" height="71"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="x4Z-2b-xUk" secondAttribute="height" multiplier="64:71" id="XDW-cA-7Jx"/>
                                 </constraints>
                             </imageView>
                             <button opaque="NO" alpha="0.90000000000000002" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QFf-oI-igb" customClass="CustomButton" customModule="OnlineStore" customModuleProvider="target">
-                                <rect key="frame" x="96" y="587" width="198" height="40"/>
+                                <rect key="frame" x="96" y="488" width="143" height="40"/>
                                 <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="20"/>
                                 <state key="normal" title="Logout">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="0.90427011986301364" colorSpace="calibratedRGB"/>
@@ -799,11 +799,11 @@
             <objects>
                 <viewController storyboardIdentifier="AboutUsVC" id="pBn-To-oHf" customClass="SideMenuDetailsViewController" customModule="OnlineStore" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Y9B-jb-7l4">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mas-9v-L1r">
-                                <rect key="frame" x="72" y="136" width="231" height="395"/>
+                                <rect key="frame" x="44.5" y="86.5" width="231" height="395"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="395" id="2uD-pN-i22"/>
                                     <constraint firstAttribute="width" constant="231" id="fSY-a4-8xp"/>
@@ -814,13 +814,13 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="About Us" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YSJ-qY-DFu">
-                                <rect key="frame" x="0.0" y="50" width="375" height="30.5"/>
+                                <rect key="frame" x="0.0" y="50" width="320" height="30.5"/>
                                 <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="22"/>
                                 <color key="textColor" red="0.41960784313725491" green="0.72549019607843135" blue="0.94117647058823528" alpha="0.89816994863013699" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Swipe down to exit!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ca4-kG-kRM">
-                                <rect key="frame" x="0.0" y="550" width="375" height="23.5"/>
+                                <rect key="frame" x="0.0" y="500.5" width="320" height="23.5"/>
                                 <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
                                 <color key="textColor" red="0.41960784313725491" green="0.72549019607843135" blue="0.94117647058823528" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -859,7 +859,7 @@
                     </tabBarItem>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" alpha="0.59999999999999998" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" barStyle="black" id="9YT-R9-F14">
-                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <rect key="frame" x="0.0" y="20" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="tintColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="barTintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -933,8 +933,8 @@
         <image name="close" width="32" height="32"/>
         <image name="hat01" width="1500" height="1500"/>
         <image name="home" width="32" height="32"/>
+        <image name="hoodies" width="1024" height="703"/>
         <image name="jacket01" width="1000" height="1000"/>
-        <image name="jackets" width="5196" height="2416"/>
         <image name="menu-button" width="32" height="32"/>
         <image name="shirt01" width="450" height="450"/>
         <image name="shopping-cart" width="32" height="32"/>

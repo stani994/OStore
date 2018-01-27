@@ -33,7 +33,7 @@ class EmailPassTextField: UITextField {
         let border = CALayer()
         let width = CGFloat(2.0)
         border.borderColor = UIColor.white.withAlphaComponent(0.8).cgColor
-        border.frame = CGRect(x: 0, y: self.frame.size.height - width, width:  self.frame.size.width, height: self.frame.size.height)
+        border.frame = CGRect(x: 0, y: self.bounds.size.height - width, width:  self.bounds.size.width, height: self.bounds.size.height)
         
         border.borderWidth = width
         self.layer.addSublayer(border)

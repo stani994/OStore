@@ -63,8 +63,22 @@ class ProductsViewController: UIViewController, UICollectionViewDelegate, UIColl
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         
+        var numberOfColumns : CGFloat = 2
+        var numberOfLines : CGFloat = 2
+        if UIScreen.main.bounds.width > 320 {
+            numberOfColumns = 3
+            numberOfLines = 3
+        }
         
-        return CGSize(width: (self.productsCollectionView.frame.size.width - 30)/2, height: self.productsCollectionView.frame.size.height/2)
+        let spaceBetween : CGFloat = 10
+        let padding : CGFloat = 30
+        let cellWidth = ((self.productsCollectionView.frame.size.width - padding) - (numberOfColumns - 1) * spaceBetween) / numberOfColumns
+        let cellHeight = self.productsCollectionView.bounds.size.height/numberOfLines
+        
+        return CGSize(width: cellWidth, height: cellHeight)
+        
+        
+       // return CGSize(width: (self.productsCollectionView.frame.size.width - 30)/2, height: self.productsCollectionView.frame.size.height/2)
         
         
     }
