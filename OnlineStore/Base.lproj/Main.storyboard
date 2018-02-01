@@ -618,7 +618,7 @@
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleAspectFit" axis="vertical" distribution="equalSpacing" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="P5Y-dH-HAw">
-                                <rect key="frame" x="27" y="118" width="321" height="282.5"/>
+                                <rect key="frame" x="27" y="68" width="321" height="282.5"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" alpha="0.94999999999999996" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="OstoreDESIGNBLUE" translatesAutoresizingMaskIntoConstraints="NO" id="ith-rQ-rpM">
                                         <rect key="frame" x="0.0" y="0.0" width="321" height="122"/>
@@ -666,7 +666,7 @@
                         <constraints>
                             <constraint firstItem="Aak-6c-H1n" firstAttribute="leading" secondItem="udc-BJ-FCk" secondAttribute="leading" constant="27" id="1Sy-YZ-scT"/>
                             <constraint firstItem="VbE-Hc-hYF" firstAttribute="trailing" secondItem="udc-BJ-FCk" secondAttribute="trailing" id="DQV-UP-8Hg"/>
-                            <constraint firstItem="P5Y-dH-HAw" firstAttribute="top" secondItem="5rL-bF-yK5" secondAttribute="bottom" constant="50" id="EWe-pw-x8I"/>
+                            <constraint firstItem="P5Y-dH-HAw" firstAttribute="top" secondItem="5rL-bF-yK5" secondAttribute="bottom" id="EWe-pw-x8I"/>
                             <constraint firstItem="P5Y-dH-HAw" firstAttribute="leading" secondItem="udc-BJ-FCk" secondAttribute="leading" constant="27" id="UqN-eS-iYz"/>
                             <constraint firstItem="VbE-Hc-hYF" firstAttribute="bottom" secondItem="wcV-Jr-UUc" secondAttribute="bottom" id="VaW-2k-SMx"/>
                             <constraint firstItem="5rL-bF-yK5" firstAttribute="leading" secondItem="udc-BJ-FCk" secondAttribute="leading" constant="16" id="Y30-c6-yib"/>
