@@ -19,7 +19,8 @@ class MyCartViewController: UIViewController, UITableViewDelegate, UITableViewDa
     @IBOutlet weak var itemsTableView: UITableView!
     @IBOutlet weak var finalPriceLabel: UILabel!
     
-
+  //  @IBOutlet weak var topBarView: UIView!
+    
     let username = UserDefaults.standard.string(forKey: "Username")
     let uid = Auth.auth().currentUser?.uid
     var finalPrice: Int = 0

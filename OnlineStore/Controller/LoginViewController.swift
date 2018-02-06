@@ -117,7 +117,7 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
                 SVProgressHUD.dismiss(withDelay: 0.6)
                 
                 let email = Auth.auth().currentUser?.email!
-                let name = email!.components(separatedBy: CharacterSet(charactersIn: ("@0123456789"))).first
+                let name = email!.components(separatedBy: "@").first
                 
                 UserDefaults.standard.set(name, forKey: "Username")
                 

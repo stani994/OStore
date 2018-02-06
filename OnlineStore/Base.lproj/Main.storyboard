@@ -242,6 +242,7 @@
                                     <constraint firstAttribute="bottom" secondItem="pWE-oA-7R7" secondAttribute="bottom" constant="8" id="ZbY-dV-lzR"/>
                                     <constraint firstItem="zSb-uk-Ict" firstAttribute="centerX" secondItem="P4H-PT-HBn" secondAttribute="centerX" id="fvl-R8-YvJ"/>
                                     <constraint firstAttribute="trailing" secondItem="pWE-oA-7R7" secondAttribute="trailing" constant="15" id="lxb-hj-hxv"/>
+                                    <constraint firstAttribute="height" constant="71" id="qOp-wL-bfU"/>
                                 </constraints>
                             </view>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="130" estimatedRowHeight="130" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="q6P-hW-4cK">
@@ -351,6 +352,7 @@
                         <outlet property="buyItemsButton" destination="pWE-oA-7R7" id="aUN-As-UXc"/>
                         <outlet property="finalPriceLabel" destination="i9Y-gj-pFi" id="df1-Mi-S7o"/>
                         <outlet property="itemsTableView" destination="q6P-hW-4cK" id="DDR-kC-Jda"/>
+                        <outlet property="topBarView" destination="P4H-PT-HBn" id="x4E-vp-gmP"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9IU-S2-Zmi" userLabel="First Responder" sceneMemberID="firstResponder"/>
