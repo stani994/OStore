@@ -352,7 +352,6 @@
                         <outlet property="buyItemsButton" destination="pWE-oA-7R7" id="aUN-As-UXc"/>
                         <outlet property="finalPriceLabel" destination="i9Y-gj-pFi" id="df1-Mi-S7o"/>
                         <outlet property="itemsTableView" destination="q6P-hW-4cK" id="DDR-kC-Jda"/>
-                        <outlet property="topBarView" destination="P4H-PT-HBn" id="x4E-vp-gmP"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9IU-S2-Zmi" userLabel="First Responder" sceneMemberID="firstResponder"/>

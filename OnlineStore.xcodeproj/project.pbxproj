@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7E012535F6A0815BE1F66B41 /* Pods_OnlineStore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DDB0060C5E48F06525927DF /* Pods_OnlineStore.framework */; };
+		7E012535F6A0815BE1F66B41 /* Pods_OnlineStore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DDB0060C5E48F06525927DF /* Pods_OnlineStore.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		84086FF71FE55BBD00F66EE1 /* ProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84086FF61FE55BBD00F66EE1 /* ProductsViewController.swift */; };
 		8409F5CA2004D403001F66AA /* MyCartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8409F5C92004D403001F66AA /* MyCartViewController.swift */; };
 		8409F5CE2004DAE0001F66AA /* CartCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8409F5CD2004DAE0001F66AA /* CartCell.swift */; };
@@ -36,6 +36,7 @@
 
 /* Begin PBXFileReference section */
 		0DDB0060C5E48F06525927DF /* Pods_OnlineStore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OnlineStore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CBC75D4BAB0A754CBAFD718 /* Pods-OnlineStore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnlineStore.release.xcconfig"; path = "Pods/Target Support Files/Pods-OnlineStore/Pods-OnlineStore.release.xcconfig"; sourceTree = "<group>"; };
 		84086FF61FE55BBD00F66EE1 /* ProductsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsViewController.swift; sourceTree = "<group>"; };
 		8409F5C92004D403001F66AA /* MyCartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCartViewController.swift; sourceTree = "<group>"; };
 		8409F5CD2004DAE0001F66AA /* CartCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartCell.swift; sourceTree = "<group>"; };
@@ -181,6 +182,7 @@
 			isa = PBXGroup;
 			children = (
 				D8FF4E52C680AF13C8D5D999 /* Pods-OnlineStore.debug.xcconfig */,
+				3CBC75D4BAB0A754CBAFD718 /* Pods-OnlineStore.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -281,7 +283,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		57E0B4A916D60491416AE197 /* [CP] Embed Pods Frameworks */ = {
@@ -511,6 +513,7 @@
 		};
 		847E61C61FE557AF002AD714 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CBC75D4BAB0A754CBAFD718 /* Pods-OnlineStore.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
